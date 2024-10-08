@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+
+body {
+    background-color: rgb(245, 245, 245); 
+    font-family: Arial, sans-serif;
+}
+
+.expense {
+    width: 40%; 
+    margin: 50px auto; 
+    background-color: white; 
+    color: black; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+}
+
+h1 {
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+p {
+    text-align: center; 
+    font-size: 1.2em; 
+    color: #555; 
+}
+
+table {
+    width: 100%; 
+    margin-bottom: 20px;
+    border-collapse: collapse; 
+}
+
+th, td {
+    padding: 10px; 
+    text-align: center; 
+    border: 1px solid #ddd;
+}
+
+th {
+    color: black ;
+    border: none;
+}
+
+td {
+    border: none;
+    color: black;
+}
+
+.description {
+    border: 1px solid #ddd; 
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: #fdfdfd; 
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px; 
+    font-weight: bold; 
+}
+
+input[type="text"], input[type="number"] {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    width: calc(100% - 20px); 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    transition: border-color 0.3s; 
+}
+
+input[type="text"]:focus, input[type="number"]:focus {
+    border-color: rgb(65, 170, 189); 
+    outline: none; 
+}
+
+button {
+    background-color: rgb(65, 170, 189); 
+    color: white; 
+    width: 100%; 
+    padding: 15px; 
+    font-size: 18px; 
+    font-weight: bold;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    
+}
+
+button:hover {
+    background-color: rgb(50, 150, 170); 
+}
+
+#history {
+    overflow-y: auto; 
+    max-height: 100px; 
+    border: 1px solid #ddd; 
+    padding: 5px; 
+    background-color: #f9f9f9; 
+}
+
+#history div {
+    margin: 5px 0; 
+    padding: 5px; 
+    border-bottom: 1px solid #eee; 
+}
